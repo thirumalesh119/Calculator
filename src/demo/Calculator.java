@@ -5,6 +5,7 @@ public class Calculator {
         add(1,2,3);
         subtract(23,12);
         multiply(23,23);
+        division(100,10);
 
     }
     public static void add(int a, int b, int c){
@@ -16,5 +17,8 @@ public class Calculator {
     }
     public static void multiply(int a,int b){
         System.out.println(a*b);
+    }
+    public static void division(int a,int b){
+        System.out.println(a/b);
     }
 }
