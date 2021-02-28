@@ -8,7 +8,6 @@ public class Calculator {
         division(100,10);
         multiplication(10,11,12);
         System.out.println("hello coding is done");
-
     }
     public static void add(int a, int b, int c){
         System.out.println(a+b+c);
